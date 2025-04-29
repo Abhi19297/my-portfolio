@@ -3,7 +3,7 @@ import Image from 'next/image';
 import {Mail, Phone, Linkedin, Github} from 'lucide-react';
 import {Card, CardContent, CardDescription, CardHeader, CardTitle} from '@/components/ui/card';
 
-export default function Home() {
+export default function () {
   return (
     <div className="container mx-auto py-10">
       {/* Hero Section */}
